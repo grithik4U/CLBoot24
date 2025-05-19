@@ -56,7 +56,7 @@ This project aims to provide a secure and customizable token solution for develo
 
 This project requires the following dependencies:
 
-- **Programming Language:** unknown
+- **Programming Language:** Solidity
 
 ### Installation
 
