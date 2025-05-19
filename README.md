@@ -10,8 +10,8 @@
 
 <!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/grithik4U/CLBoot24?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/grithik4U/CLBoot24?style=flat&color=0080ff" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/grithik4U/CLBoot24?style=flat&color=0080ff" alt="repo-language-count">
+<img src="https://img.shields.io/github/languages/top/grithik4U/CLBoot24?style=flat&color=0080ff" alt="Solidity">
+<img src="https://img.shields.io/github/languages/count/grithik4U/CLBoot24?style=flat&color=0080ff" alt="1">
 
 <em>Built with the tools and technologies:</em>
 
@@ -76,22 +76,6 @@ Build CLBoot24 from the source and intsall dependencies:
 
 3. **Install the dependencies:**
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
 
-### Usage
-
-Run the project with:
-
-echo 'INSERT-RUN-COMMAND-HERE'
-
-### Testing
-
-Clboot24 uses the {__test_framework__} test framework. Run the test suite with:
-
-echo 'INSERT-TEST-COMMAND-HERE'
-
----
-
-<div align="left"><a href="#top">⬆ Return</a></div>
 
 ---
