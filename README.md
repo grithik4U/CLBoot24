@@ -66,13 +66,13 @@ Build CLBoot24 from the source and intsall dependencies:
 1. **Clone the repository:**
 
     ```sh
-    ❯ git clone https://github.com/grithik4U/CLBoot24
+    ❯ git clone https://github.com/grithik4U/Tokenisation_LINK
     ```
 
 2. **Navigate to the project directory:**
 
     ```sh
-    ❯ cd CLBoot24
+    ❯ cd Tokenisation_LINK
     ```
 
 3. **Install the dependencies:**
