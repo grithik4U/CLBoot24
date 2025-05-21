@@ -35,7 +35,7 @@
 
 ## Overview
 
-chainlink Automation is a powerful developer tool designed to simplify the creation and management of ERC20 tokens on the Ethereum blockchain, ensuring robust governance and security.
+Chainlink Automation is a powerful developer tool designed to simplify the creation and management of ERC20 tokens on the Ethereum blockchain, ensuring robust governance and security.
 
 
 This project aims to provide a secure and customizable token solution for developers. The core features include:
