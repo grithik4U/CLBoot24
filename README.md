@@ -13,10 +13,6 @@
 <img src="https://img.shields.io/github/languages/top/grithik4U/CLBoot24?style=flat&color=0080ff" alt="Solidity">
 <img src="https://img.shields.io/github/languages/count/grithik4U/CLBoot24?style=flat&color=0080ff" alt="1">
 
-<em>Built with the tools and technologies:</em>
-
-<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
-
 </div>
 <br>
 
@@ -35,9 +31,8 @@
 
 ## Overview
 
-CLBoot24 is a powerful developer tool designed to simplify the creation and management of ERC20 tokens on the Ethereum blockchain, ensuring robust governance and security.
+Chainlink Automation is a powerful developer tool designed to simplify the creation and management of ERC20 tokens on the Ethereum blockchain, ensuring robust governance and security.
 
-**Why CLBoot24?**
 
 This project aims to provide a secure and customizable token solution for developers. The core features include:
 
@@ -49,6 +44,12 @@ This project aims to provide a secure and customizable token solution for develo
 - 📄 **Comprehensive Metadata Artifacts:** Provides essential deployment and interaction metadata for enhanced integration.
 
 ---
+-Time Based Automation 
+<img width="1533" alt="Screenshot 2025-05-21 at 19 46 21" src="https://github.com/user-attachments/assets/38999287-f052-4100-847e-5a1e434c38ea" />
+-Custom Logic Automation
+<img width="1533" alt="Screenshot 2025-05-21 at 20 30 48" src="https://github.com/user-attachments/assets/15daceac-86fb-4905-a38b-60dfd80e5bd6" />
+
+
 
 ## Getting Started
 
@@ -65,13 +66,13 @@ Build CLBoot24 from the source and intsall dependencies:
 1. **Clone the repository:**
 
     ```sh
-    ❯ git clone https://github.com/grithik4U/CLBoot24
+    ❯ git clone https://github.com/grithik4U/Tokenisation_LINK
     ```
 
 2. **Navigate to the project directory:**
 
     ```sh
-    ❯ cd CLBoot24
+    ❯ cd Tokenisation_LINK
     ```
 
 3. **Install the dependencies:**
