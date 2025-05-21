@@ -49,6 +49,7 @@ This project aims to provide a secure and customizable token solution for develo
 - 📄 **Comprehensive Metadata Artifacts:** Provides essential deployment and interaction metadata for enhanced integration.
 
 ---
+<img width="1533" alt="Screenshot 2025-05-21 at 19 46 21" src="https://github.com/user-attachments/assets/38999287-f052-4100-847e-5a1e434c38ea" />
 
 ## Getting Started
 
