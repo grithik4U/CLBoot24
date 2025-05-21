@@ -13,9 +13,6 @@
 <img src="https://img.shields.io/github/languages/top/grithik4U/CLBoot24?style=flat&color=0080ff" alt="Solidity">
 <img src="https://img.shields.io/github/languages/count/grithik4U/CLBoot24?style=flat&color=0080ff" alt="1">
 
-<em>Built with the tools and technologies:</em>
-
-
 </div>
 <br>
 
