@@ -44,8 +44,12 @@ This project aims to provide a secure and customizable token solution for develo
 - 📄 **Comprehensive Metadata Artifacts:** Provides essential deployment and interaction metadata for enhanced integration.
 
 ---
-**-Time Based Automation 
+-Time Based Automation 
 <img width="1533" alt="Screenshot 2025-05-21 at 19 46 21" src="https://github.com/user-attachments/assets/38999287-f052-4100-847e-5a1e434c38ea" />
+-Custom Logic Automation
+<img width="1533" alt="Screenshot 2025-05-21 at 20 30 48" src="https://github.com/user-attachments/assets/15daceac-86fb-4905-a38b-60dfd80e5bd6" />
+
+
 
 ## Getting Started
 
