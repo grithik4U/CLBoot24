@@ -48,6 +48,8 @@ This project aims to provide a secure and customizable token solution for develo
 <img width="1533" alt="Screenshot 2025-05-21 at 19 46 21" src="https://github.com/user-attachments/assets/38999287-f052-4100-847e-5a1e434c38ea" />
 -Custom Logic Automation
 <img width="1533" alt="Screenshot 2025-05-21 at 20 30 48" src="https://github.com/user-attachments/assets/15daceac-86fb-4905-a38b-60dfd80e5bd6" />
+-LogTrigger Counter 
+<img width="1533" alt="Screenshot 2025-05-22 at 15 27 01" src="https://github.com/user-attachments/assets/da1c431c-f68a-4204-8be8-9ffb2b44daa3" />
 
 
 
