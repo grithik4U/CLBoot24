@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "index",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "txHash",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "uint256",
+								"name": "blockNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "blockHash",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "address",
+								"name": "source",
+								"type": "address"
+							},
+							{
+								"internalType": "bytes32[]",
+								"name": "topics",
+								"type": "bytes32[]"
+							},
+							{
+								"internalType": "bytes",
+								"name": "data",
+								"type": "bytes"
+							}
+						],
+						"internalType": "struct Log",
+						"name": "log",
+						"type": "tuple"
+					},
+					{
+						"internalType": "bytes",
+						"name": "checkData",
+						"type": "bytes"
+					}
+				],
+				"name": "checkLog",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "upkeepNeeded",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "performData",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "performData",
+						"type": "bytes"
+					}
+				],
+				"name": "performUpkeep",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"checkLog((uint256,uint256,bytes32,uint256,bytes32,address,bytes32[],bytes),bytes)": {
+					"details": "To ensure that it is never called, you may want to add the cannotExecute modifier from KeeperBase to your implementation of this method.",
+					"params": {
+						"checkData": "user-specified extra data to provide context to this upkeep",
+						"log": "the raw log data matching the filter that this contract has registered as a trigger"
+					},
+					"returns": {
+						"performData": "bytes that the keeper should call performUpkeep with, if upkeep is needed. If you would like to encode data to decode later, try `abi.encode`.",
+						"upkeepNeeded": "boolean to indicate whether the keeper should call performUpkeep or not."
+					}
+				},
+				"performUpkeep(bytes)": {
+					"details": "The input to this method should not be trusted, and the caller of the method should not even be restricted to any single registry. Anyone should be able call it, and the input should be validated, there is no guarantee that the data passed in is the performData returned from checkUpkeep. This could happen due to malicious keepers, racing keepers, or simply a state change while the performUpkeep transaction is waiting for confirmation. Always validate the data passed in.",
+					"params": {
+						"performData": "is the data which was passed back from the checkData simulation. If it is encoded, it can easily be decoded into other types by calling `abi.decode`. This data should not be trusted, and should be validated against the contract's current state."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"checkLog((uint256,uint256,bytes32,uint256,bytes32,address,bytes32[],bytes),bytes)": {
+					"notice": "method that is simulated by the keepers to see if any work actually needs to be performed. This method does does not actually need to be executable, and since it is only ever simulated it can consume lots of gas."
+				},
+				"performUpkeep(bytes)": {
+					"notice": "method that is actually executed by the keepers, via the registry. The data returned by the checkUpkeep simulation will be passed into this method to actually be executed."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"log-trigger/LogTrigger_flattened.sol": "ILogAutomation"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"log-trigger/LogTrigger_flattened.sol": {
+			"keccak256": "0xba193150c2e6f30870ee537ae15b1e0eff552946de68e6a8e5a02a3506201e6e",
+			"urls": [
+				"bzz-raw://21414a0b312e909198bb027ac1a2fe933699801b3c5b0559eca49220cf34a301",
+				"dweb:/ipfs/QmPYXchNw6ZUjpqPzTjvKUDtDv2fw6toFPXgVnnCDPtHDA"
+			]
+		}
+	},
+	"version": 1
+}
